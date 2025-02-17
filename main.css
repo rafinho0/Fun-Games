@@ -2,6 +2,8 @@
     font-family: 'KeepCalm';
     src: url(fonts/KeepCalm-Medium.ttf);
 }
+
+/* Main page */
 body {
     background-color: #131313;
     font-family: 'KeepCalm', sans-serif;
@@ -9,10 +11,26 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .apresentacao {
     background-color: rgb(34, 41, 129);
     font-size: 10rem;
+    
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.jogos, .infos {
+    background-color: blueviolet;
 }
