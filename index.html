@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun&Games</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- aqui tera o titulo do site  -->
     <div class="apresentacao">
         <img src="imgs/controller_logo.png" alt="controller logo" width="300" height="300">
         <header>Fun&Games</header>
     </div>
+
+    <!-- criando uma div para os botoes e os textos  -->
     <div class="links">
-        <button onclick="location.href = 'best_games.html'" id="botao01">Melhores jogos</button>
-        <button onclick="location.href = 'infos.html'" id="botao02">Informacoes</button>
+        <div class="link_item">
+            <button onclick="location.href = 'best_games.html'" id="botao01">Melhores jogos</button>
+            <p>Clique no botao acima para ser direcionado para a pagina dos jogos avaliados pelo criador do website.</p>
+        </div>
+        <div class="link_item">
+            <button onclick="location.href = 'infos.html'" id="botao02">Informacoes</button>
+            <p>Clique no botao acima para ser direcionado para a pagina de Informacoes</p>
+        </div>
     </div>
+
+    <!-- rodape do site -->
     <div class="rodape">
         <footer>Desenvolvido por: <span id="nomeDev" style="opacity: 0.7;">Rafael Oliveira da Silva</span></footer>
     </div>
