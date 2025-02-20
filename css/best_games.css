@@ -20,9 +20,23 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #143D60;
+    padding: 10px 20px;
+}
+
+.logo_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Faz com que esse bloco ocupe o espaço disponível */
+    text-align: center;
+}
+
+.header img {
+    height: 80px;
+    margin-right: 10px;
 }
 
 .header header {
@@ -31,26 +45,47 @@ body {
     font-weight: 1000;
 }
 
-.header a {
+.links {
+    margin-left: auto; /* Move os links para a direita */
+    display: flex;
+    gap: 20px; /* Espaço entre os links */
+}
+
+.links a {
     text-decoration: none;
     color: white;
 }
 
-/* DEPOIS RETIRE SE NECESSARIO */
+/* Estilo do conteúdo */
 .content {
     flex: 1;
-    /* Criarei uma caixa */
     background-color: #3d4756;
-    width: 2000px;
+    width: 80%; /* Ajustado para não ocupar 100% */
+    margin: 30px auto;
     border-radius: 15px;
     padding: 20px 40px;
-    margin: 30px;
+}
+
+.content h1 {
+    font-size: 3.5rem;
+}
+
+.games h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
 }
 
 .games a {
     color: yellowgreen;
 }
 
+.games p {
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Estilo do footer */
 .footer {
     background-color: #143D60;
     text-align: center;
