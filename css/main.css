@@ -1,35 +1,22 @@
 @font-face {
-    font-family: 'KeepCalm';
-    src: url(fonts/KeepCalm-Medium.ttf);
-}
-
-@font-face {
     font-family: 'ProximaNovaBlack';
     src: url(fonts/proximaNova/Proxima\ Nova\ Alt\ Condensed\ Black.otf);
 }
 
-.roboto-teste {
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
-  html, body {
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-
-/* Main page */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #272932;
     color: white;
+    background-color: #252525;
 }
 
 .apresentacao {
@@ -43,9 +30,11 @@ body {
 }
 
 .links {
+    flex: 1; /* Isso faz com que o conteúdo principal ocupe o espaço disponível */
     display: flex;
-    justify-content: center; /* deixando eles centralizados */
-    gap: 250px; /* Espaço entre os dois botões */
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
 }
 
 .link_item {
@@ -71,16 +60,16 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 500;
+    width: 250px;
+    text-justify: distribute-all-lines;
 }
 
-.rodape footer {
+.footer footer {
     background-color: #143D60;
-    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     padding: 25px 0px 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;   
+    width: 100%;
+    text-align: center;
 }
 
 #nomeDev {

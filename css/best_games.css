@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'ProximaNovaBlack';
+    src: url(fonts/proximaNova/Proxima\ Nova\ Alt\ Condensed\ Black.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #252525;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #143D60;
+}
+
+.header header {
+    font-family: 'ProximaNovaBlack', sans-serif;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* DEPOIS RETIRE SE NECESSARIO */
+.content {
+    flex: 1;
+    /* Criarei uma caixa */
+    background-color: #3d4756;
+    width: 2000px;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin: 30px;
+}
+
+.games a {
+    color: yellowgreen;
+}
+
+.footer {
+    background-color: #143D60;
+    text-align: center;
+    padding: 25px 0px 15px;
+    width: 100%;
+}
+
+.footer span {
+    opacity: 0.7;
+}
