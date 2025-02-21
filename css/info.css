@@ -18,6 +18,7 @@ body {
     background-color: #252525;
 }
 
+/* header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -56,36 +57,39 @@ body {
     color: white;
 }
 
-/* Estilo do conteúdo */
+/* content */
+
 .content {
     flex: 1;
     background-color: #3d4756;
-    width: 80%; /* Ajustado para não ocupar 100% */
+    width: 50%; /* Ajustado para não ocupar 100% */
     margin: 30px auto;
     border-radius: 15px;
-    padding: 20px 40px;
+    padding: 40px 60px;
+    
+}
+
+.content h1, h2 {
+    font-family: 'ProximaNovaBlack', sans-serif;
 }
 
 .content h1 {
-    font-size: 3.5rem;
+    text-align: center;
+    font-size: 3rem;
 }
 
-.games h2 {
-    font-size: 2.5rem;
-    margin-top: 20px;
+.content p, h2 {
+    text-align: justify;
+    padding: 0px 70px 0px 70px;
+    
 }
 
-.games a {
-    color: yellowgreen;
-}
-
-.games p {
-    width: 800px;
+.content p {
     font-size: 20px;
-    margin-bottom: 15px;
 }
 
-/* Estilo do footer */
+
+/* rodape */
 .footer {
     background-color: #143D60;
     text-align: center;
