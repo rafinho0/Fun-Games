@@ -53,6 +53,7 @@ body {
 }
 
 .links a {
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
@@ -66,9 +67,20 @@ body {
     margin: 30px auto;
     border-radius: 15px;
     padding: 40px 60px;
-    
 }
 
+/* centralizando a foto */
+#myPhoto {
+    display: block;
+    margin: 0 auto;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* formatando os titulos */
 .content h1, h2 {
     font-family: 'ProximaNovaBlack', sans-serif;
 }
@@ -88,6 +100,22 @@ body {
     font-size: 20px;
 }
 
+.content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+/* formatando os links de contato */
+.links_contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* deixando um espaco entre os icones */
+    margin-top: 10px; /* separando um pouco da imagem */
+}
 
 /* rodape */
 .footer {
