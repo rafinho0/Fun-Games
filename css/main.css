@@ -64,14 +64,13 @@ body {
     text-justify: distribute-all-lines;
 }
 
-.footer footer {
+.footer {
     background-color: #143D60;
-    font-size: 1rem;
+    text-align: center;
     padding: 25px 0px 15px;
     width: 100%;
-    text-align: center;
 }
 
-#nomeDev {
+.footer span {
     opacity: 0.7;
 }

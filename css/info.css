@@ -20,9 +20,6 @@ body {
 
 /* header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #143D60;
     padding: 10px 20px;
 }
@@ -33,6 +30,7 @@ body {
     justify-content: center;
     flex-grow: 1; /* Faz com que esse bloco ocupe o espaço disponível */
     text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 
 .header img {
@@ -47,9 +45,10 @@ body {
 }
 
 .links {
-    margin-left: auto; /* Move os links para a direita */
     display: flex;
-    gap: 20px; /* Espaço entre os links */
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px; /* Espaço entre os links */
 }
 
 .links a {
