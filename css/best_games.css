@@ -60,7 +60,7 @@ body {
 /* Estilo do conteúdo */
 .content {
     flex: 1;
-    background-color: #3d4756;
+    background-color: #2f2f2f;
     width: 80%; /* Ajustado para não ocupar 100% */
     margin: 30px auto;
     border-radius: 15px;

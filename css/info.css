@@ -59,14 +59,13 @@ body {
 }
 
 /* content */
-
 .content {
     flex: 1;
-    background-color: #3d4756;
+    background-color: #2f2f2f;
     width: 50%; /* Ajustado para não ocupar 100% */
     margin: 30px auto;
     border-radius: 15px;
-    padding: 40px 60px;
+    padding: 50px 60px;
 }
 
 /* centralizando a foto */
