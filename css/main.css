@@ -23,6 +23,7 @@ body {
     background-color: #143D60;
     font-family: 'ProximaNovaBlack', sans-serif;
     font-size: 8rem;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
